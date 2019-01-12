@@ -1,0 +1,18 @@
+#include<iostream.h>
+
+void main()
+{
+int jam, menit, detik;
+
+cout<<"\t=Menghitung waktu=\n";
+cout<<"\t==================\n"<<endl;
+
+cout<<"Berapa detik? ";
+cin>>detik;
+
+menit = detik / 60;
+jam = detik / 3600;
+
+cout<<menit<<" Menit "<<endl;
+cout<<jam<<" Jam "<<endl;
+}
